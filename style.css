@@ -57,14 +57,14 @@ body {
 .message-input button {
     padding: 10px 20px;
     border: none;
-    background-color: #007bff;
+    background-color: #21db09;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .message-input button:hover {
-    background-color: #0056b3;
+    background-color: #21db09;
 }
 
 #username-modal {
@@ -79,5 +79,45 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#username-modal input {
+    margin-bottom: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 
+#username-modal button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #21db09;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#username-modal button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #21db09;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#username-modal button:hover {
+    background-color: #138b03;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.timestamp {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
 
